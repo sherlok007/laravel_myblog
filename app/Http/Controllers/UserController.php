@@ -16,7 +16,7 @@ class UserController extends Controller
             'email' => 'clonney@hotstar.com',
             'password' => 'Apple@123',
         ];
-        User:: create($data);
+        //User:: create($data);
 
         //User::where('id', 4)->delete();
 
